@@ -30,7 +30,7 @@
   <link href="css/app.css" rel="stylesheet"></head>
   <body>
     <header class="header">
-      <div class="header__container">
+      <div class="header_in section_in">
         <div class="header__body">
           <div class="header_tags">
             <div class="header_tags__title">TAGS:</div>
@@ -53,187 +53,185 @@
     </header>
     <div class="wrapper">
       <div class="base">
-        <div class="index_page__blog">
-          <div class="index_page__container">
-            <section class="section post">
-              <div class="post__main">
-                <div class="post__content">
-                  <h1 class="post__title">Recent posts</h1>
-                  <ul class="post__list">
-                    <li class="post__list_item">
-                      <div class="post_card"><a class="post_card__image" href="#">
-                          <picture class="post_card__image_in">
-                            <source srcset="images/post_item/item1.jpg.webp" type="image/webp">
-                            <source srcset="images/post_item/item1.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item1.jpg" alt="Item image">
-                          </picture></a>
-                        <div class="post_card__wrapper"><a class="post_card__title" href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a>
-                          <div class="post_card__user"><a class="post_card__user_name" href="#">Derek Zimmer</a><span class="post_card__user_date">JUL 25, 2018</span></div>
-                          <ul class="post_card__list">
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Networking</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Open Source</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Privacy</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Security</a></li>
-                          </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
-                              <svg class="icon icon_comment icon--size_mod">
-                                <use xlink:href="images/sprite/sprite.svg#comment"></use>
-                              </svg></span></a>
-                        </div>
+        <section class="section post">
+          <div class="section_in">
+            <div class="post__main">
+              <div class="post__content">
+                <h1 class="post__title">Recent posts</h1>
+                <ul class="post__list">
+                  <li class="post__list_item">
+                    <div class="post_card"><a class="post_card__image" href="#">
+                        <picture class="post_card__image_in">
+                          <source srcset="images/post_item/item1.jpg.webp" type="image/webp">
+                          <source srcset="images/post_item/item1.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item1.jpg" alt="Item image">
+                        </picture></a>
+                      <div class="post_card__wrapper"><a class="post_card__title" href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a>
+                        <div class="post_card__user"><a class="post_card__user_name" href="#">Derek Zimmer</a><span class="post_card__user_date">JUL 25, 2018</span></div>
+                        <ul class="post_card__list">
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Networking</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Open Source</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Privacy</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Security</a></li>
+                        </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
+                            <svg class="icon icon_comment icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#comment"></use>
+                            </svg></span></a>
                       </div>
-                    </li>
-                    <li class="post__list_item">
-                      <div class="post_card"><a class="post_card__image" href="#">
-                          <picture class="post_card__image_in">
-                            <source srcset="images/post_item/item2.jpg.webp" type="image/webp">
-                            <source srcset="images/post_item/item2.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item2.jpg" alt="Item image">
-                          </picture></a>
-                        <div class="post_card__wrapper"><a class="post_card__title" href="#">How to get cheaper flights using a VPN</a>
-                          <div class="post_card__user"><a class="post_card__user_name" href="#">Jayson</a><span class="post_card__user_date">JUL 24, 2018</span></div>
-                          <ul class="post_card__list">
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Guides</a></li>
-                          </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
-                              <svg class="icon icon_comment icon--size_mod">
-                                <use xlink:href="images/sprite/sprite.svg#comment"></use>
-                              </svg></span></a>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="post__list_item">
+                    <div class="post_card"><a class="post_card__image" href="#">
+                        <picture class="post_card__image_in">
+                          <source srcset="images/post_item/item2.jpg.webp" type="image/webp">
+                          <source srcset="images/post_item/item2.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item2.jpg" alt="Item image">
+                        </picture></a>
+                      <div class="post_card__wrapper"><a class="post_card__title" href="#">How to get cheaper flights using a VPN</a>
+                        <div class="post_card__user"><a class="post_card__user_name" href="#">Jayson</a><span class="post_card__user_date">JUL 24, 2018</span></div>
+                        <ul class="post_card__list">
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Guides</a></li>
+                        </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
+                            <svg class="icon icon_comment icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#comment"></use>
+                            </svg></span></a>
                       </div>
-                    </li>
-                    <li class="post__list_item">
-                      <div class="post_card"><a class="post_card__image" href="#">
-                          <picture class="post_card__image_in">
-                            <source srcset="images/post_item/item3.jpg.webp" type="image/webp">
-                            <source srcset="images/post_item/item3.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item3.jpg" alt="Item image">
-                          </picture></a>
-                        <div class="post_card__wrapper"><a class="post_card__title" href="#">Net Neutrality was repealed, but the fight is far from over</a>
-                          <div class="post_card__user"><a class="post_card__user_name" href="#">Chris Miller</a><span class="post_card__user_date">JUL 22, 2018</span></div>
-                          <ul class="post_card__list">
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Net Neutrality</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">News</a></li>
-                          </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
-                              <svg class="icon icon_comment icon--size_mod">
-                                <use xlink:href="images/sprite/sprite.svg#comment"></use>
-                              </svg></span></a>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="post__list_item">
+                    <div class="post_card"><a class="post_card__image" href="#">
+                        <picture class="post_card__image_in">
+                          <source srcset="images/post_item/item3.jpg.webp" type="image/webp">
+                          <source srcset="images/post_item/item3.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item3.jpg" alt="Item image">
+                        </picture></a>
+                      <div class="post_card__wrapper"><a class="post_card__title" href="#">Net Neutrality was repealed, but the fight is far from over</a>
+                        <div class="post_card__user"><a class="post_card__user_name" href="#">Chris Miller</a><span class="post_card__user_date">JUL 22, 2018</span></div>
+                        <ul class="post_card__list">
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Net Neutrality</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">News</a></li>
+                        </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
+                            <svg class="icon icon_comment icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#comment"></use>
+                            </svg></span></a>
                       </div>
-                    </li>
-                    <li class="post__list_item">
-                      <div class="post_card"><a class="post_card__image" href="#">
-                          <picture class="post_card__image_in">
-                            <source srcset="images/post_item/item1.jpg.webp" type="image/webp">
-                            <source srcset="images/post_item/item1.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item1.jpg" alt="Item image">
-                          </picture></a>
-                        <div class="post_card__wrapper"><a class="post_card__title" href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a>
-                          <div class="post_card__user"><a class="post_card__user_name" href="#">Derek Zimmer</a><span class="post_card__user_date">JUL 25, 2018</span></div>
-                          <ul class="post_card__list">
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Networking</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Open Source</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Privacy</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Security</a></li>
-                          </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
-                              <svg class="icon icon_comment icon--size_mod">
-                                <use xlink:href="images/sprite/sprite.svg#comment"></use>
-                              </svg></span></a>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="post__list_item">
+                    <div class="post_card"><a class="post_card__image" href="#">
+                        <picture class="post_card__image_in">
+                          <source srcset="images/post_item/item1.jpg.webp" type="image/webp">
+                          <source srcset="images/post_item/item1.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item1.jpg" alt="Item image">
+                        </picture></a>
+                      <div class="post_card__wrapper"><a class="post_card__title" href="#">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises</a>
+                        <div class="post_card__user"><a class="post_card__user_name" href="#">Derek Zimmer</a><span class="post_card__user_date">JUL 25, 2018</span></div>
+                        <ul class="post_card__list">
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Networking</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Open Source</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Privacy</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Security</a></li>
+                        </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
+                            <svg class="icon icon_comment icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#comment"></use>
+                            </svg></span></a>
                       </div>
-                    </li>
-                    <li class="post__list_item">
-                      <div class="post_card"><a class="post_card__image" href="#">
-                          <picture class="post_card__image_in">
-                            <source srcset="images/post_item/item2.jpg.webp" type="image/webp">
-                            <source srcset="images/post_item/item2.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item2.jpg" alt="Item image">
-                          </picture></a>
-                        <div class="post_card__wrapper"><a class="post_card__title" href="#">How to get cheaper flights using a VPN</a>
-                          <div class="post_card__user"><a class="post_card__user_name" href="#">Jayson</a><span class="post_card__user_date">JUL 24, 2018</span></div>
-                          <ul class="post_card__list">
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Guides</a></li>
-                          </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
-                              <svg class="icon icon_comment icon--size_mod">
-                                <use xlink:href="images/sprite/sprite.svg#comment"></use>
-                              </svg></span></a>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="post__list_item">
+                    <div class="post_card"><a class="post_card__image" href="#">
+                        <picture class="post_card__image_in">
+                          <source srcset="images/post_item/item2.jpg.webp" type="image/webp">
+                          <source srcset="images/post_item/item2.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item2.jpg" alt="Item image">
+                        </picture></a>
+                      <div class="post_card__wrapper"><a class="post_card__title" href="#">How to get cheaper flights using a VPN</a>
+                        <div class="post_card__user"><a class="post_card__user_name" href="#">Jayson</a><span class="post_card__user_date">JUL 24, 2018</span></div>
+                        <ul class="post_card__list">
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Guides</a></li>
+                        </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
+                            <svg class="icon icon_comment icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#comment"></use>
+                            </svg></span></a>
                       </div>
-                    </li>
-                    <li class="post__list_item">
-                      <div class="post_card"><a class="post_card__image" href="#">
-                          <picture class="post_card__image_in">
-                            <source srcset="images/post_item/item3.jpg.webp" type="image/webp">
-                            <source srcset="images/post_item/item3.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item3.jpg" alt="Item image">
-                          </picture></a>
-                        <div class="post_card__wrapper"><a class="post_card__title" href="#">Net Neutrality was repealed, but the fight is far from over</a>
-                          <div class="post_card__user"><a class="post_card__user_name" href="#">Chris Miller</a><span class="post_card__user_date">JUL 22, 2018</span></div>
-                          <ul class="post_card__list">
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">Net Neutrality</a></li>
-                            <li class="post_card__list_item"><a class="post_card__list_link" href="#">News</a></li>
-                          </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
-                              <svg class="icon icon_comment icon--size_mod">
-                                <use xlink:href="images/sprite/sprite.svg#comment"></use>
-                              </svg></span></a>
-                        </div>
+                    </div>
+                  </li>
+                  <li class="post__list_item">
+                    <div class="post_card"><a class="post_card__image" href="#">
+                        <picture class="post_card__image_in">
+                          <source srcset="images/post_item/item3.jpg.webp" type="image/webp">
+                          <source srcset="images/post_item/item3.jpg" type="image/jpg"><img class="post_card__image_img" src="images/post_item/item3.jpg" alt="Item image">
+                        </picture></a>
+                      <div class="post_card__wrapper"><a class="post_card__title" href="#">Net Neutrality was repealed, but the fight is far from over</a>
+                        <div class="post_card__user"><a class="post_card__user_name" href="#">Chris Miller</a><span class="post_card__user_date">JUL 22, 2018</span></div>
+                        <ul class="post_card__list">
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Governments</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">Net Neutrality</a></li>
+                          <li class="post_card__list_item"><a class="post_card__list_link" href="#">News</a></li>
+                        </ul><a class="post_card__comment" href="#"><span class="post_card__comment_number">0</span><span class="post_card__comment_icon">
+                            <svg class="icon icon_comment icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#comment"></use>
+                            </svg></span></a>
                       </div>
-                    </li>
+                    </div>
+                  </li>
+                </ul>
+                <button class="post__botton" type="button">older posts</button>
+              </div>
+              <aside class="post__sidebar">
+                <form class="post__form">
+                  <label for="search">
+                    <input class="post__form_search" id="search" type="search" placeholder="Search blog">
+                  </label>
+                  <button class="post__form_submit" type="submit" aria-label="Search">
+                    <svg class="icon icon_search icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#search"></use>
+                    </svg>
+                  </button>
+                </form>
+                <div class="posts_list">
+                  <div class="posts_list__body"><a class="posts_list__heading" href="#"><span class="posts_list__heading_icon">
+                        <svg class="icon icon_call icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#call"></use>
+                        </svg></span><span class="posts_list__heading_title">Announcements</span></a></div>
+                  <ul class="posts_list__list">
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">Upcoming Changes (Live Chat, Less Censorship, More Access)</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">New Servers (US Washington DC)</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">New Servers (US Denver)</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">Open Source: Releasing the PIA iOS Client</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">Opera Extension is now available</a></li>
                   </ul>
-                  <button class="post__botton" type="button">older posts</button>
                 </div>
-                <aside class="post__sidebar">
-                  <form class="post__form">
-                    <label for="search">
-                      <input class="post__form_search" id="search" type="search" placeholder="Search blog">
-                    </label>
-                    <button class="post__form_submit" type="submit" aria-label="Search">
-                      <svg class="icon icon_search icon--size_mod">
-                        <use xlink:href="images/sprite/sprite.svg#search"></use>
-                      </svg>
-                    </button>
-                  </form>
-                  <div class="posts_list">
-                    <div class="posts_list__body"><a class="posts_list__heading" href="#"><span class="posts_list__heading_icon">
-                          <svg class="icon icon_call icon--size_mod">
-                            <use xlink:href="images/sprite/sprite.svg#call"></use>
-                          </svg></span><span class="posts_list__heading_title">Announcements</span></a></div>
-                    <ul class="posts_list__list">
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">Upcoming Changes (Live Chat, Less Censorship, More Access)</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">New Servers (US Washington DC)</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">New Servers (US Denver)</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">Open Source: Releasing the PIA iOS Client</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">Opera Extension is now available</a></li>
-                    </ul>
-                  </div>
-                  <div class="posts_list">
-                    <div class="posts_list__body"><a class="posts_list__heading" href="#"><span class="posts_list__heading_icon">
-                          <svg class="icon icon_posts icon--size_mod">
-                            <use xlink:href="images/sprite/sprite.svg#posts"></use>
-                          </svg></span><span class="posts_list__heading_title">Popular posts</span></a></div>
-                    <ul class="posts_list__list">
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">The Gift of Privacy</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">UK High Court Censors Many Links To Popcorn Time: Useless, Dangerous Gesture</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">About the PIA Client Security and VPN Security in General</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">A Private Net Is Just As Fundamental A Right As Freedom Of Speech</a></li>
-                      <li class="posts_list__item"><a class="posts_list__link" href="#">Opera Extension is now available</a></li>
-                    </ul>
-                  </div>
-                  <div class="blog__banner">
-                    <picture class="blog__banner_image">
-                      <source srcset="images/other/posts-image.jpg.webp" type="image/webp">
-                      <source srcset="images/other/posts-image.jpg" type="image/jpg"><img class="blog__banner_image_img" src="images/other/posts-image.jpg" alt="Banner">
+                <div class="posts_list">
+                  <div class="posts_list__body"><a class="posts_list__heading" href="#"><span class="posts_list__heading_icon">
+                        <svg class="icon icon_posts icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#posts"></use>
+                        </svg></span><span class="posts_list__heading_title">Popular posts</span></a></div>
+                  <ul class="posts_list__list">
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">The Gift of Privacy</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">UK High Court Censors Many Links To Popcorn Time: Useless, Dangerous Gesture</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">About the PIA Client Security and VPN Security in General</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">A Private Net Is Just As Fundamental A Right As Freedom Of Speech</a></li>
+                    <li class="posts_list__item"><a class="posts_list__link" href="#">Opera Extension is now available</a></li>
+                  </ul>
+                </div>
+                <div class="blog__banner">
+                  <picture class="blog__banner_image">
+                    <source srcset="images/other/posts-image.jpg.webp" type="image/webp">
+                    <source srcset="images/other/posts-image.jpg" type="image/jpg"><img class="blog__banner_image_img" src="images/other/posts-image.jpg" alt="Banner">
+                  </picture>
+                </div>
+                <div class="post__tags">
+                  <h4 class="post__tags_title">Tag cloud</h4>
+                  <div class="post__tags_image">
+                    <picture class="post__tags_image_in">
+                      <source srcset="images/other/posts-link.jpg.webp" type="image/webp">
+                      <source srcset="images/other/posts-link.jpg" type="image/jpg"><img class="post__tags_image_img" src="images/other/posts-link.jpg" alt="Tags">
                     </picture>
                   </div>
-                  <div class="post__tags">
-                    <h4 class="post__tags_title">Tag cloud</h4>
-                    <div class="post__tags_image">
-                      <picture class="post__tags_image_in">
-                        <source srcset="images/other/posts-link.jpg.webp" type="image/webp">
-                        <source srcset="images/other/posts-link.jpg" type="image/jpg"><img class="post__tags_image_img" src="images/other/posts-link.jpg" alt="Tags">
-                      </picture>
-                    </div>
-                  </div>
-                </aside>
-              </div>
-            </section>
+                </div>
+              </aside>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
       <footer class="footer"></footer>
     </div>
